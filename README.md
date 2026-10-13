@@ -1,13 +1,13 @@
 <!-- ═══════════════════════════════  HEADER  ═══════════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:1e3a5f,100:7dd3fc&height=220&section=header&text=Meet%20Acharya&fontSize=62&fontColor=e0f2fe&fontAlignY=36&animation=twinkling&desc=AI%2FML%20Engineer%20%E2%80%A2%20Generative%20AI%20%E2%80%A2%20LLMs%20%26%20RAG&descSize=18&descAlignY=58" alt="Meet Acharya — AI/ML Engineer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:1e3a5f,100:7dd3fc&height=200&section=header&text=Meet%20Acharya&fontSize=62&fontColor=e0f2fe&fontAlignY=40&animation=twinkling" alt="Meet Acharya" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/MeetAcharya24">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=7DD3FC&center=true&vCenter=true&width=640&lines=Building+intelligent+apps+%26+AI+agents;LLMs+%E2%80%A2+RAG+%E2%80%A2+Generative+AI;Shipping+agents+with+Google+ADK+%2B+Gemini;Talk+to+trucks%3A+a+voice-first+Tata+Motors+assistant;Predicting+disease+with+Flask+%2B+scikit-learn;Exploring+Agentic+AI%2C+NLP+%26+Cloud" alt="Typing animation" />
-  </a>
+  <img src="./meet-acharya.png" alt="Photo of Meet Acharya" width="190" />
 </p>
+
+<h3 align="center">AI/ML Engineer &nbsp;·&nbsp; Full Stack Developer</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20to%20Work-Full--time%20%C2%B7%20Freelance%20%C2%B7%20Internships%20%C2%B7%20OSS-7dd3fc?style=for-the-badge&labelColor=0f172a" alt="Open to work" />
@@ -26,7 +26,8 @@
 
 ```typescript
 const meetAcharya = {
-  title: "AI/ML Engineer — Generative AI, LLMs & RAG",
+  title: ["AI/ML Engineer", "Full Stack Developer"],
+  focus: "Generative AI, LLMs & RAG",
   mission: "Building intelligent applications, AI agents & real-world solutions",
 
   stack: {
@@ -146,13 +147,13 @@ An AI-powered hospital management system that brings patient records, doctors an
 ## Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MeetAcharya24&theme=nord&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="GitHub trophies" />
+  <img src="https://github-trophies.vercel.app/?username=MeetAcharya24&theme=nord&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="GitHub trophies" />
 </p>
 
 ## Contribution Activity
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MeetAcharya24&bg_color=2e3440&color=d8dee9&line=7dd3fc&point=e0f2fe&area=true&area_color=7dd3fc&hide_border=true&title_color=7dd3fc" alt="Contribution graph" />
+  <img width="100%" src="https://ghchart.rshah.org/7dd3fc/MeetAcharya24" alt="Contribution calendar" />
 </p>
 
 <br/>
