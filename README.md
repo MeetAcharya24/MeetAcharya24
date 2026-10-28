@@ -34,13 +34,14 @@ const meetAcharya = {
     languages:  ["Python"],
     ai:         ["LangChain", "Google ADK", "Gemini", "scikit-learn", "ElevenLabs (STT/TTS)"],
     frontend:   ["React", "Next.js"],
-    backend:    ["Flask", "SQLite"],
+    backend:    ["FastAPI", "Flask", "SQLite", "Neo4j"],
     exploring:  ["Agentic AI", "NLP", "Machine Learning", "Cloud Technologies"],
   },
 
   launchedProjects: [
     "TATA Motors AI ChatBot — voice + avatar truck assistant on Google ADK & Gemini",
     "Acharya Hospital — AI-powered hospital management with disease prediction",
+    "GraphRAG — multi-hop Q&A over a Neo4j knowledge graph with Gemini",
   ],
 
   certifications: [
@@ -105,6 +106,29 @@ An AI-powered hospital management system that brings patient records, doctors an
 
 <br/>
 
+### 03 &nbsp;/&nbsp; GraphRAG — Multi-hop Question Answering
+
+A GraphRAG app for questions that need more than one fact to answer. Upload PDF, TXT or Markdown documents, and it extracts entities into a Neo4j knowledge graph. Each answer cites its sources and shows the multi-hop graph path that links the supporting facts. Access is password-protected and rate-limited, and the whole stack runs on free tiers.
+
+<p align="center">
+  <a href="https://github.com/MeetAcharya24/graphRAG">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MeetAcharya24&repo=graphRAG&theme=nord&title_color=7dd3fc&icon_color=7dd3fc&text_color=7dd3fc&border_color=7dd3fc" alt="graphRAG repo card" />
+  </a>
+</p>
+
+| Layer | Technology |
+|:--|:--|
+| Backend | FastAPI, Uvicorn |
+| Knowledge Graph & Vectors | Neo4j AuraDB (graph + vector index) |
+| LLM | Gemini Flash (answers), Flash-Lite (entity extraction), Gemini embeddings; Anthropic optional |
+| Retrieval | Multi-hop graph traversal with cited source trail |
+| Testing | pytest (offline fakes + live suite) |
+| Deployment | Render |
+
+**Live →** [graphrag-bb8z.onrender.com](https://graphrag-bb8z.onrender.com/) &nbsp;·&nbsp; **Code →** [github.com/MeetAcharya24/graphRAG](https://github.com/MeetAcharya24/graphRAG)
+
+<br/>
+
 ## Tech Stack
 
 <p align="center"><sub><b>LANGUAGES</b></sub><br/>
@@ -116,11 +140,12 @@ An AI-powered hospital management system that brings patient records, doctors an
 </p>
 
 <p align="center"><sub><b>BACKEND</b></sub><br/>
-  <img src="https://skillicons.dev/icons?i=flask&theme=dark" alt="Flask" />
+  <img src="https://skillicons.dev/icons?i=fastapi,flask&theme=dark" alt="FastAPI, Flask" />
 </p>
 
 <p align="center"><sub><b>AI &amp; DATA</b></sub><br/>
   <img src="https://skillicons.dev/icons?i=sklearn,sqlite&theme=dark" alt="scikit-learn, SQLite" /><br/>
+  <img src="https://img.shields.io/badge/Neo4j-0f172a?style=flat-square&logo=neo4j&logoColor=7dd3fc" alt="Neo4j" />
   <img src="https://img.shields.io/badge/LangChain-0f172a?style=flat-square&logo=langchain&logoColor=7dd3fc" alt="LangChain" />
   <img src="https://img.shields.io/badge/Google%20ADK-0f172a?style=flat-square&logo=google&logoColor=7dd3fc" alt="Google ADK" />
   <img src="https://img.shields.io/badge/Gemini-0f172a?style=flat-square&logo=googlegemini&logoColor=7dd3fc" alt="Gemini" />
