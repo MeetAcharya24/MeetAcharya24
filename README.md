@@ -31,10 +31,10 @@ const meetAcharya = {
   mission: "Building intelligent applications, AI agents & real-world solutions",
 
   stack: {
-    languages:  ["Python"],
-    ai:         ["LangChain", "Google ADK", "Gemini", "scikit-learn", "ElevenLabs (STT/TTS)"],
-    frontend:   ["React", "Next.js"],
-    backend:    ["FastAPI", "Flask", "SQLite", "Neo4j"],
+    languages:  ["Python", "TypeScript"],
+    ai:         ["LangChain", "LangGraph", "MCP", "Google ADK", "Gemini", "scikit-learn", "ElevenLabs (STT/TTS)"],
+    frontend:   ["React", "Next.js", "Tailwind CSS"],
+    backend:    ["FastAPI", "Flask", "PostgreSQL (Neon)", "SQLite", "Neo4j", "Redis"],
     exploring:  ["Agentic AI", "NLP", "Machine Learning", "Cloud Technologies"],
   },
 
@@ -42,6 +42,7 @@ const meetAcharya = {
     "TATA Motors AI ChatBot — voice + avatar truck assistant on Google ADK & Gemini",
     "Acharya Hospital — AI-powered hospital management with disease prediction",
     "GraphRAG — multi-hop Q&A over a Neo4j knowledge graph with Gemini",
+    "SynapseX — visual builder for multi-agent AI systems on LangGraph & MCP",
   ],
 
   certifications: [
@@ -129,24 +130,51 @@ A GraphRAG app for questions that need more than one fact to answer. Upload PDF,
 
 <br/>
 
+### 04 &nbsp;/&nbsp; SynapseX — Visual Multi-Agent Builder
+
+An open-source visual builder for multi-agent AI systems. You drag agents onto a canvas and wire them together, switch the LLM behind each one, and plug in tools over MCP. Then you test the whole workflow in a playground and deploy it with one click.
+
+<p align="center">
+  <a href="https://github.com/MeetAcharya24/SynapseX">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MeetAcharya24&repo=SynapseX&theme=nord&title_color=7dd3fc&icon_color=7dd3fc&text_color=7dd3fc&border_color=7dd3fc" alt="SynapseX repo card" />
+  </a>
+</p>
+
+| Layer | Technology |
+|:--|:--|
+| Frontend | Next.js 16, React 19, TypeScript, Tailwind CSS 4 |
+| Agent Canvas | React Flow (`@xyflow/react`), Zustand |
+| Agent Orchestration | LangGraph, LangChain |
+| Tools | Model Context Protocol (MCP) SDK |
+| Database & Auth | Neon serverless Postgres, Better Auth |
+| Rate Limiting | Upstash Redis |
+| Motion | GSAP, Lenis smooth scroll |
+| Deployment | Vercel |
+
+**Live →** [synapse-x-iota.vercel.app](https://synapse-x-iota.vercel.app) &nbsp;·&nbsp; **Code →** [github.com/MeetAcharya24/SynapseX](https://github.com/MeetAcharya24/SynapseX)
+
+<br/>
+
 ## Tech Stack
 
 <p align="center"><sub><b>LANGUAGES</b></sub><br/>
-  <img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python" />
+  <img src="https://skillicons.dev/icons?i=python,ts&theme=dark" alt="Python, TypeScript" />
 </p>
 
 <p align="center"><sub><b>FRONTEND</b></sub><br/>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,html&theme=dark" alt="React, Next.js, HTML" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html&theme=dark" alt="React, Next.js, Tailwind CSS, HTML" />
 </p>
 
 <p align="center"><sub><b>BACKEND</b></sub><br/>
-  <img src="https://skillicons.dev/icons?i=fastapi,flask&theme=dark" alt="FastAPI, Flask" />
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,postgres,redis,vercel&theme=dark" alt="FastAPI, Flask, PostgreSQL, Redis, Vercel" />
 </p>
 
 <p align="center"><sub><b>AI &amp; DATA</b></sub><br/>
   <img src="https://skillicons.dev/icons?i=sklearn,sqlite&theme=dark" alt="scikit-learn, SQLite" /><br/>
   <img src="https://img.shields.io/badge/Neo4j-0f172a?style=flat-square&logo=neo4j&logoColor=7dd3fc" alt="Neo4j" />
   <img src="https://img.shields.io/badge/LangChain-0f172a?style=flat-square&logo=langchain&logoColor=7dd3fc" alt="LangChain" />
+  <img src="https://img.shields.io/badge/LangGraph-0f172a?style=flat-square&logo=langgraph&logoColor=7dd3fc" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/MCP-0f172a?style=flat-square&logo=modelcontextprotocol&logoColor=7dd3fc" alt="Model Context Protocol" />
   <img src="https://img.shields.io/badge/Google%20ADK-0f172a?style=flat-square&logo=google&logoColor=7dd3fc" alt="Google ADK" />
   <img src="https://img.shields.io/badge/Gemini-0f172a?style=flat-square&logo=googlegemini&logoColor=7dd3fc" alt="Gemini" />
   <img src="https://img.shields.io/badge/ElevenLabs-0f172a?style=flat-square&logo=elevenlabs&logoColor=7dd3fc" alt="ElevenLabs" />
