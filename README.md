@@ -67,7 +67,7 @@ An information-only AI assistant for TATA Motors commercial vehicles. It lists a
 
 <p align="center">
   <a href="https://github.com/MeetAcharya24/TATA-Motors">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MeetAcharya24&repo=TATA-Motors&theme=nord&title_color=7dd3fc&icon_color=7dd3fc&text_color=7dd3fc&border_color=7dd3fc" alt="TATA-Motors repo card" />
+    <img src="./TATA-Motors.svg" alt="TATA-Motors repo card" width="400" />
   </a>
 </p>
 
@@ -90,7 +90,7 @@ An AI-powered hospital management system that brings patient records, doctors an
 
 <p align="center">
   <a href="https://github.com/MeetAcharya24/Acharya-Hospital">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MeetAcharya24&repo=Acharya-Hospital&theme=nord&title_color=7dd3fc&icon_color=7dd3fc&text_color=7dd3fc&border_color=7dd3fc" alt="Acharya-Hospital repo card" />
+    <img src="./Acharya-Hospital.svg" alt="Acharya-Hospital repo card" width="400" />
   </a>
 </p>
 
@@ -113,7 +113,7 @@ A GraphRAG app for questions that need more than one fact to answer. Upload PDF,
 
 <p align="center">
   <a href="https://github.com/MeetAcharya24/graphRAG">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MeetAcharya24&repo=graphRAG&theme=nord&title_color=7dd3fc&icon_color=7dd3fc&text_color=7dd3fc&border_color=7dd3fc" alt="graphRAG repo card" />
+    <img src="./graphRAG.svg" alt="graphRAG repo card" width="400" />
   </a>
 </p>
 
@@ -136,7 +136,7 @@ An open-source visual builder for multi-agent AI systems. You drag agents onto a
 
 <p align="center">
   <a href="https://github.com/MeetAcharya24/SynapseX">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MeetAcharya24&repo=SynapseX&theme=nord&title_color=7dd3fc&icon_color=7dd3fc&text_color=7dd3fc&border_color=7dd3fc" alt="SynapseX repo card" />
+    <img src="./SynapseX.svg" alt="SynapseX repo card" width="400" />
   </a>
 </p>
 
